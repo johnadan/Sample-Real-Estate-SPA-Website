@@ -43,7 +43,7 @@ li a:hover {
 #home {
 	background-color: #d4d5d6;
 	height: 100vh;
-	/*padding-top: 20px;*/
+	padding: 0px;
 }
 
 #property1,
