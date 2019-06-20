@@ -1,0 +1,116 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: black;
+}
+
+body {
+	font-family: 'Work Sans', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  /*padding-bottom: 10px;*/
+  /*for fixed position*/
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  /*text-decoration: none;*/
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+#home {
+	background-color: #d4d5d6;
+	height: 100vh;
+	/*padding-top: 20px;*/
+}
+
+#property1,
+#property2,
+#property3,
+#property4,
+#property5,
+#property6,
+#property7,
+#property8,
+#property9,
+#property10 {
+	height: 60vh;
+	width: 40vw;
+}
+
+#properties {
+	height: 100vh;
+}
+
+.container-fluid
+ {
+	height: 100vh;
+	padding: 75px 20px 75px 20px;
+}
+
+#gallery {
+	background-color: #d4d5d6;
+}
+
+#about {
+	/*background-color: #d4d5d6;*/
+	background-image: url(../images/pexels-photo-966397.jpeg);
+}
+
+#contact {
+	background-color: #d4d5d6;
+	/*padding-top: 10px;*/
+}
+
+#client-shake-hands {
+	width: 100%;
+}
+
+.carousel-item {
+	width: 100%;
+	height: 100vh;
+}
+
+.d-block {
+	height: 100vh;
+	width: 100%;
+}
+
+a:link, a:visited {
+	/*color: white;*/
+	text-decoration: none;
+ }
+
+ .card-img-top {
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+}
+
+
+
+
+
+ 
