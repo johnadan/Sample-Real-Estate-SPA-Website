@@ -56,6 +56,18 @@
 		<div class="row">
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 px-0">
 				<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+					    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+					    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+					    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+					    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+					    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+					    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+					    <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+					    <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+					    <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+					    <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
+					  </ol>
 				  <div class="carousel-inner">
 				    <div class="carousel-item active">
 				      <img class="d-block w-100% h-100%" src="assets/images/property1.jpeg" alt="First slide">
@@ -104,7 +116,7 @@
 	<!-- <div class="container-fluid" id="home">Home</div> -->
 
 	<div class="container-fluid" id="properties">
-		<h2 class="text-center">Properties</h5>
+		<h2 class="text-center"><strong>Properties</strong></h5>
 			<div class="row">
 				<div class="col-lg-1 col-md-1"></div>
 				<div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
@@ -134,7 +146,7 @@
 	</div>
 
 	<div class="container-fluid" id="about">
-		<h2 class="text-center pt-5">About Us</h5>
+		<h2 class="text-center pt-5"><strong>About Us</strong></h5>
 		<h5 class="py-5 text-center">Every single day, XYZ touches the lives of millions of people through its stores, malls, banks, hotels and leisure facilities.</h4>
 		<p>XYZ, one of the four residential brands of XYZ Land Corporation, is known for consistently delivering the good life to its valued clients through its master-planned, gated subdivisions conveniently located in key urban cities and provinces all over the Philippines.
 		</p>
@@ -152,35 +164,48 @@ They can also be easily accessed from neighboring provinces like Cavite, Bulacan
 
 
 	<div class="container-fluid" id="contact">
-		<h2 class="text-center">Contact Us</h2>
+		<h2 class="text-center"><strong>Contact Us</strong></h2>
 		<p class="text-center py-5">Swing by for a cup of coffee, or leave us a message:</p>
 		<div class="row">
 			<div class="col-lg-1 col-md-1"></div>
-			<div class="col-lg-5 col-md-5 col-sm-6 col-xs-6">
-				<img src="assets/images/realtor-client-shaking-hands.jpg" id="client-shake-hands">
-			</div>
-			<div class="col-lg-5 col-md-5 col-sm-6 col-xs-6">
-				<form>
-					<div class="form-group">
-			    		<label class="text-center" id="emailinput" for="InputEmail">Email</label>
-				    	<input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp"  placeholder="Enter your email">
-				  	</div>
-				  	<div class="form-group">
-				  		<label class="text-center" id="nameinput" for="InputName">Full Name</label>
-					    <input type="text" class="form-control" id="InputName" placeholder="Enter your full name">
-				  	</div>
-				  	<div class="form-group">
-				  		<label class="text-center" id="subjectinput" for="InputSubject">Subject</label>
-					    <input type="text" class="form-control" id="InputSubject" placeholder="Enter subject">
-				  	</div>
-				  	<div class="form-group">
-				  		<label for="message">Message</label>
-				  		<textarea form="message" id="message" name="message" class="form-control" rows="5"placeholder="Enter your message here"></textarea>
-				  	</div>	
-				  	<div class="form-group text-center">
-				  		<button id="sendemail" type="submit" class="btn btn-outline-dark text-center"><a href="mclemadan@gmail.com" target= "_top">Submit</a></button> 
+			<div class="col-lg-5 col-md-5">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<img src="assets/images/realtor-client-shaking-hands.jpg" id="client-shake-hands">
+						</div>
 					</div>
-				</form>
+				</div>
+			</div>
+			<div class="col-lg-5 col-md-5">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<form>
+								<div class="form-group">
+						    		<label class="text-center" id="emailinput" for="InputEmail">Email</label>
+							    	<input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp"  placeholder="Enter your email">
+							  	</div>
+							  	<div class="form-group">
+							  		<label class="text-center" id="nameinput" for="InputName">Full Name</label>
+								    <input type="text" class="form-control" id="InputName" placeholder="Enter your full name">
+							  	</div>
+							  	<div class="form-group">
+							  		<label class="text-center" id="subjectinput" for="InputSubject">Subject</label>
+								    <input type="text" class="form-control" id="InputSubject" placeholder="Enter subject">
+							  	</div>
+							  	<div class="form-group">
+							  		<label for="message">Message</label>
+							  		<textarea form="message" id="message" name="message" class="form-control" rows="5"placeholder="Enter your message here"></textarea>
+							  	</div>	
+							  	<div class="form-group text-center">
+							  		<button id="sendemail" type="submit" class="btn btn-outline-dark text-center"><a href="mclemadan@gmail.com" target= "_top">Submit</a></button> 
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				
 			</div>
 		</div>
 	</div>
