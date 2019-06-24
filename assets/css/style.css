@@ -62,7 +62,7 @@ li a:hover {
 }
 
 #properties {
-	height: 100vh;
+	/*height: 100vh;*/
 	background-color: #d4d5d6;
 }
 
@@ -108,14 +108,15 @@ a:link, a:visited {
 
  .card-img-top {
     width: 100%;
-    height: 20vh;
+    height: 100%;
     object-fit: cover;
+    /*padding: 10px;*/
 }
 
 #property1, 
 #property2 {
-	height: 40vh;
-	width: 38.3vw;
+	height: 100%;
+	width: 100%;
 }
 
 footer {
@@ -131,11 +132,41 @@ footer {
 	color: white;
 }
 
+/*Laptop*/
+@media only screen and (max-width: 1920px) {
+	/*#property1, 
+	#property2 {
+	height: 40vh;
+	width: 39vw;
+	}*/
+}
+
+/*Laptop*/
+@media only screen and (max-width: 1366px) {
+	/*#property1, 
+	#property2 {
+	height: 40vh;
+	width: 38.5vw;
+	}*/
+}
+
 /*Mobile*/
 @media only screen and (min-width: 411px) and (max-width: 640px) {
 	.carousel-item {
 	width: 100%;
 	height: 50vh;
+	}
+
+	.d-block {
+	height: 50vh;
+	width: 100%;
+	}
+
+	.card-img-top {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /*padding: 10px;*/
 	}
 }
 
@@ -143,6 +174,18 @@ footer {
 	.carousel-item {
 	width: 100%;
 	height: 50vh;
+	}
+
+	.d-block {
+	height: 50vh;
+	width: 100%;
+	}
+
+	.card-img-top {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /*padding: 10px;*/
 	}
  }
 
@@ -153,14 +196,30 @@ footer {
 	height: 50vh;
 	}
 
+	.d-block {
+	height: 50vh;
+	width: 100%;
+	}
+
 	footer {
-	height: 5vh;
+	position: absolute;
 	width: 100%;
 		}
 
 	.card-img-top {
     width: 100%;
-    height: 100vw;
+    height: 100%;
     object-fit: cover;
+    /*padding: 10px;*/
 	}
+
+/*	#property1, 
+	#property2 {
+	height: 100%;
+	width: 100%;
+	}*/
+
+	/*ul {
+		margin-bottom: 80px;
+	}*/
 }
