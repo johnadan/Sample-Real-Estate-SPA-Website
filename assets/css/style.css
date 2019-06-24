@@ -37,7 +37,8 @@ li a {
 }
 
 li a:hover {
-  background-color: #111;
+  background-color: #ffffff;
+  
 }
 
 #home {
@@ -117,12 +118,49 @@ a:link, a:visited {
 	width: 38.3vw;
 }
 
-
+footer {
+	width: 100%;
+	position: absolute;
+}
 
 #carouselExampleIndicators {
 
 }
 
+.carousel-caption p {
+	color: white;
+}
 
+/*Mobile*/
+@media only screen and (min-width: 411px) and (max-width: 640px) {
+	.carousel-item {
+	width: 100%;
+	height: 50vh;
+	}
+}
 
- 
+@media only screen and (min-width: 401px) and (max-width: 410px) {
+	.carousel-item {
+	width: 100%;
+	height: 50vh;
+	}
+ }
+
+/*Mobile*/
+@media only screen and (max-width: 400px) {
+	.carousel-item {
+	width: 100%;
+	height: 50vh;
+	}
+
+	footer {
+	height: 5vh;
+	width: 100%;
+		}
+
+	.card-img-top {
+    width: 100%;
+    height: 100vw;
+    object-fit: cover;
+	}
+}
